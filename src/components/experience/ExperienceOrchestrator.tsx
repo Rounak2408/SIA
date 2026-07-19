@@ -206,7 +206,7 @@ export function ExperienceOrchestrator() {
               <TypingMessage onComplete={handleTypingComplete} />
             )}
             {phase === "ending" && (
-              <EndingScreen onFadeMusic={() => fadeOut(4000)} />
+              <EndingScreen onFadeMusic={fadeOut} />
             )}
           </motion.div>
         )}
