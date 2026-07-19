@@ -1,0 +1,19 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1a1025"/>
+      <stop offset="0.5" stop-color="#0a0a12"/>
+      <stop offset="1" stop-color="#1a1508"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="400" y1="200" x2="400" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD700"/>
+      <stop offset="1" stop-color="#B8860B"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="380" r="120" stroke="url(#gold)" stroke-width="2" fill="none" opacity="0.4"/>
+  <circle cx="400" cy="380" r="80" fill="url(#gold)" opacity="0.15"/>
+  <text x="400" y="400" text-anchor="middle" fill="url(#gold)" font-family="Georgia, serif" font-size="28" opacity="0.8">Your Photo</text>
+  <text x="400" y="440" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" opacity="0.35">Replace in /public/images/</text>
+  <rect x="150" y="600" width="500" height="2" fill="url(#gold)" opacity="0.3"/>
+</svg>
